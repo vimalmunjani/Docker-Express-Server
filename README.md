@@ -1,6 +1,6 @@
 # Docker-Express-Server
 
-## Useful Docker commands
+## DOCKER
 
 - docker version - version of container
 - docker run <image-name> <override-command> - run container
@@ -36,10 +36,11 @@ Dockerfile
 instruction telling server 
 what to do 
 
-FROM					alpine 
-RUN					apk add --update redis
-CMD					["redis-server"]
+> FROM					alpine 
 
+> RUN					apk add --update redis
+
+> CMD					["redis-server"]
 
 docker build .
 docker build -t <docker-id>/<image-name>:<version> . - tagging the image (<version is the actual tagging>)
