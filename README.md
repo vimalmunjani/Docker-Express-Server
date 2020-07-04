@@ -53,7 +53,7 @@ docker commit -c 'CDM ["<default-command>", .., .....]' <container-id>
 docker run -p <in-port>:<out-port> <image-name>
 
 
-# KUBERNETES
+## KUBERNETES
 
 - kubectl version
 - kubectl get pods
