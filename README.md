@@ -64,7 +64,7 @@ docker run -p <in-port>:<out-port> <image-name>
 - kubectl describe pod <pod-name>
 
 
-- Deployment manage the pods (same pods)
+> Deployment manage the pods (same pods)
 
 
 - kubectl get deployments
